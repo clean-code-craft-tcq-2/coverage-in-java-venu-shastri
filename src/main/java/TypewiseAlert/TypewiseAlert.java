@@ -5,7 +5,8 @@ public class TypewiseAlert
     public enum BreachType {
       NORMAL,
       TOO_LOW,
-      TOO_HIGH
+      TOO_HIGH,
+      VERY_HIGH
     };
     public static BreachType inferBreach(double value, double lowerLimit, double upperLimit) {
       if(value < lowerLimit) {
